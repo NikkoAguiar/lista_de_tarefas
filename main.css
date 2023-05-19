@@ -12,13 +12,14 @@ html{
 header{
     background-color: gray;
     color: #FFF;
-    display: flex;
-    align-items: center;
-    text-align: center;
     text-transform: uppercase;
     font-style: italic;
     border: 2px solid #000;
     margin: 100px auto 0 0;
+}
+
+header h1{
+    text-align: center;
 }
 
 .container{
