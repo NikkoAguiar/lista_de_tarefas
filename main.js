@@ -9,9 +9,9 @@ $(document).ready(function(){
         $('#informe_a_atividade').val('');
 
         $('li').click(function(){
-            $('img').css("display", "none");
+            $('#icone_rejeitado', this).css("display", "none");
             novoItem = $(`<img id="icone_aprovado" style="height: 12px;" src="./images/icon_checked.png"/>`);
-            $('#icone_aprovado').remove();
+            $('#icone_aprovado', this).remove();
             $(novoItem).appendTo(this);
             $(this).css("text-decoration", "line-through");
         })
